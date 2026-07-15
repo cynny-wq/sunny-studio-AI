@@ -1,3 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Sunny Studio AI</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="app">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+    <div class="logo">
+        <h2>🌞 Sunny Studio</h2>
+        <button id="toggleSidebar">☰</button>
+    </div>
+
+    <nav>
+
+        <a href="#" class="active">
+            🏠 <span>Dashboard</span>
+        </a>
+
+        <a href="#">
+            📂 <span>Projects</span>
+        </a>
+
+        <a href="#">
+            🤖 <span>AI Studio</span>
+        </a>
+
+        <a href="#">
+            🎤 <span>Voice Studio</span>
+        </a>
+
+        <a href="#">
+            🎬 <span>Video Studio</span>
+        </a>
+
+        <a href="#">
+            🖼 <span>Assets</span>
+        </a>
+
+        <a href="#">
+            ⚙ <span>Settings</span>
+        </a>
+
+    </nav>
+
+</aside>
+
+    <!-- Main -->
+    <main class="main">
+
+        <header class="topbar">
+
+            <div>
+
+                <h1>Welcome back, Cynthia 👋</h1>
+
+                <p>Create amazing AI animations from one place.</p>
+
+            </div>
+
+            <button id="newProject">
+                + New Project
+            </button>
+
+        </header>
+
+        <section class="stats">
+
+            <div class="card">
+                <h3>Projects</h3>
+                <h1 id="projectCount">0</h1>
+            </div>
+
+            <div class="card">
+                <h3>Videos</h3>
+                <h1>0</h1>
+            </div>
+
+            <div class="card">
+                <h3>Voices</h3>
+                <h1>0</h1>
+            </div>
+
+        </section>
+
+        <section>
+
+            <h2>Recent Projects</h2>
+
+            <div id="projectList"></div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="js/storage.js"></script>
+<script src="js/dashboard.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
